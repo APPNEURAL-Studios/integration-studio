@@ -1,0 +1,98 @@
+{
+  "slug": "integration-studio",
+  "host": "integration",
+  "title": "Integration Studio",
+  "tagline": "Webhooks, connectors and API gateway",
+  "description": "## Microservices Used",
+  "editors": [
+    {
+      "category": "Integration Editors",
+      "name": "Webhook Editor",
+      "desc": "Inbound/outbound webhook configuration"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "API Connector Editor",
+      "desc": "Third-party API connector setup"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "OAuth Config Editor",
+      "desc": "Auth flow and token management"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "API Gateway Route Editor",
+      "desc": "Route and endpoint mapping"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "Rate Limit Editor",
+      "desc": "Throttling and quota rules"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "Payload Mapping Editor",
+      "desc": "Request/response field mapping"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "Sync Schedule Editor",
+      "desc": "Scheduled data sync jobs"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "Event Subscription Editor",
+      "desc": "Event stream subscriptions"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "Connector Credential Editor",
+      "desc": "Secrets and API key management"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "Data Transformation Editor",
+      "desc": "Format/schema transformation rules"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "Retry Policy Editor",
+      "desc": "Failure retry and backoff rules"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "API Version Editor",
+      "desc": "Version compatibility management"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "Third-Party App Editor",
+      "desc": "Installed app configuration"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "Middleware Rule Editor",
+      "desc": "Request/response middleware chains"
+    },
+    {
+      "category": "Integration Editors",
+      "name": "Integration Log Editor",
+      "desc": "Sync and call history"
+    }
+  ],
+  "services": [
+    [
+      "workflow",
+      "core"
+    ],
+    [
+      "automation",
+      "core"
+    ],
+    [
+      "agent",
+      "core"
+    ]
+  ]
+}
